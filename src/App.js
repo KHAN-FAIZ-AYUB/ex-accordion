@@ -24,7 +24,6 @@ export default function App() {
 }
 
 function Accordion({ data }) {
-  console.log(data);
   return (
     <div className="accordian">
       {data.map((el, i) => (
